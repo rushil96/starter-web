@@ -1,0 +1,50 @@
+button {
+	color: white;
+	align-content: center;
+	background-color: green;
+	height: 30px;
+	width: 7cm;
+	border-width: 2px;
+}
+
+input{
+	border-width: 2px;
+	border-color: black;
+	color: green;
+	font-family: 'Times New Roman', Times;
+	height: 30px;
+	font-size: 15px;
+	background-color: whitesmoke;
+	border-color: cadetblue;
+}
+
+table, tr{
+	border-color: white;
+	color: green;
+}
+
+strong{
+	font-family: 'Times New Roman', Times;
+	color: green;
+}
+
+h1{
+	text-align: center;
+	color: green;
+}
+
+ul, ol, span{
+	font-family: 'Times New Roman', Times;
+	color: white;
+}
+
+html { 
+	background: url(m.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+  a, img{
+	  color: white;
+  }

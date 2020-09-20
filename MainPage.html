@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Getting Started</title>
+        <h1>Javascript Games</h1>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class='buttonsClassDiv'>
+            <button onclick="getTodayDate()">Get today's day and time</button>&nbsp;
+            <button onclick="checkSunday()">Which 1-Jan will be Sunday</button>&nbsp;
+            <button onclick="getURL()">Get document URL</button>&nbsp;
+            <button onclick="checkDaysUntilChristmas()">Check Days Until Christmas</button>&nbsp;
+            <button onclick="printWebpage()">Print Web Page</button><br><br>
+            <span class='common'></span>
+            <button class='copyButton' hidden=true onclick="copyContent(this.parentElement)">Copy</button><br><br>
+            <input class='temp' hidden='true'/>
+        </div>  
+        <div class = "triangleAreaDiv">
+            <strong><em>Let's find area of a triangle</em></strong>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input placeholder="Side 1" class='side1' onfocus="buttonVisible(this)" required/>
+            <input placeholder="Side 2" class='side2' onfocus="buttonVisible(this)" required/>
+            <input placeholder="Side 3" class='side3' onfocus="buttonVisible(this)" required/>
+            <span class='area' hidden=true></span>
+            <button class='findArea' onclick="triArea(this)">Find Area of triangle</button><br><br>
+        </div>
+        <div class = "triangleAreaDiv">
+            <strong><em>Let's find area of a triangle</em></strong>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input placeholder="Side 1" class='side1' onfocus="buttonVisible(this)" required/>
+            <input placeholder="Side 2" class='side2' onfocus="buttonVisible(this)" required/>
+            <input placeholder="Side 3" class='side3' onfocus="buttonVisible(this)" required/>
+            <span class='area' hidden=true></span>
+            <button class='findArea' onclick="triArea(this)">Find Area of triangle</button><br><br>
+        </div>
+        <span id='rotate'>------------></span><br>
+        <span id='rotate1'><------------</span><br><br>
+        <input id='random' placeholder="Guess the number"/>
+        <button onclick="randomGuess()">Check the number</button><br><br>
+        <div>
+            <input class='userDVN' placeholder="Variable name"/>
+            <input class='userDVV' placeholder="Variable value"/>
+            <input class='userDVT' placeholder="Variable type N/S"/>
+            <button onclick="userDV(this.parentElement)">Create variable</button><br><br>
+        </div>
+        <div id='listOfItems'></div>
+        <a href='https://www.google.com'>Google</a><br>
+        <input id="newInput" class="newClass" placeholder="New placeholder" type="hidden" data_id="01111"/>
+        <!--document.getElementById('newInput').getAttribute('data_id')-->
+        <script type="text/javascript" src="MainPageJS.js" ></script>
+    </body>
+</html>
